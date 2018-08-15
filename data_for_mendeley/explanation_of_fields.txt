@@ -1,0 +1,18 @@
+data(iSuj) contains the behavioral data from each trial from subject iSuj. 
+
+The fields are as follows: 
+
+choice:         0 for leftward choices, 1 for rightward choices
+req_choice:     identifies the correct choice for each trial
+correct:        0 for incorrect choices, 1 for correct choices
+coh:            signed motion coherence (negative for leftward motion)
+dotdur:         motion duration in seconds
+confidence:     in range 0.5 (guessing) to 1 (full certainty)
+subject_number: subject id
+block_number:   block number
+belief:         belief report (0: sure of a leftward block bias; 1: sure of rightward block bias)
+base_rate:      base rate of the block
+trial_number:   trial number in the block
+
+Code to reproduce the figures will be published on
+https://github.com/arielzylberberg
